@@ -1,5 +1,5 @@
 const greet = (name: string): string => {
-  console.log('Elo');
+  console.log('Elo123');
   return `Hello, ${name} 123!`;
 };
 
