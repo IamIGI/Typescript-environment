@@ -23,19 +23,15 @@ This project is set up to write TypeScript code in the `src` folder, compile it 
 ### **2. Manual to create environment **
 
 1. Run the following command to initialize a package.json file:
-
    - npm init -y
 
 2. Install TypeScript as a development dependency:
-
    - npm install --save-dev typescript
 
 3. Create a tsconfig.json File
-
-- npx tsc --init
+   - npx tsc --init
 
 4. Create Folders in tsconfig.json file
-
    - Create a **src** folder for your TypeScript files. **"rootDir": "./src",**
    - Create a **build** folder where the compiled JavaScript will go. **"outDir": "./build"**,
 
@@ -45,8 +41,7 @@ This project is set up to write TypeScript code in the `src` folder, compile it 
    "build": "tsc",
    "watch": "tsc --watch"
    }
-
-- npm run watch
+   - npm run watch
 
 ## **3. Viewing in the Browser**
 
