@@ -24,20 +24,20 @@ This project is set up to write TypeScript code in the `src` folder, compile it 
 
 1. Run the following command to initialize a package.json file:
 
-- npm init -y
+   - npm init -y
 
 2. Install TypeScript as a development dependency:
 
-- npm install --save-dev typescript
+   - npm install --save-dev typescript
 
-3.  Create a tsconfig.json File
+3. Create a tsconfig.json File
 
 - npx tsc --init
 
 4. Create Folders in tsconfig.json file
 
-- Create a **src** folder for your TypeScript files. **"rootDir": "./src",**
-- Create a **build** folder where the compiled JavaScript will go. **"outDir": "./build"**,
+   - Create a **src** folder for your TypeScript files. **"rootDir": "./src",**
+   - Create a **build** folder where the compiled JavaScript will go. **"outDir": "./build"**,
 
 5. Create a TypeScript file in the src folder, e.g., src/index.ts. Write some code.
 6. Add a watch script in package.json to automatically compile TypeScript on file changes:
