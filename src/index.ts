@@ -1,6 +1,5 @@
-const greet = (name: string): string => {
-  console.log('Elo123');
-  return `Hello, ${name} 123!`;
-};
+import { test_1 } from './test_1.js';
+import { test_2 } from './test_2.js';
 
-console.log(greet('TypeScript'));
+console.log(test_1());
+console.log(test_2());
