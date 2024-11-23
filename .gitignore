@@ -2,7 +2,7 @@
 /node_modules/
 
 # Compiled JavaScript files
-/build/
+# /build/ --actually we want to see it there
 
 # TypeScript configuration files
 *.tsbuildinfo
