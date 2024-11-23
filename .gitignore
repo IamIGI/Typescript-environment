@@ -1,0 +1,18 @@
+# Node.js dependencies
+/node_modules/
+
+# Compiled JavaScript files
+/build/
+
+# TypeScript configuration files
+*.tsbuildinfo
+
+# VSCode settings
+.vscode/
+
+# Log files
+*.log
+
+# Operating System files
+.DS_Store
+Thumbs.db
